@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70B31FD13BB45F700D36FC4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70B31FC13BB45F700D36FC4 /* Cocoa.framework */; };
+		F70B320713BB45F700D36FC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F70B320513BB45F700D36FC4 /* InfoPlist.strings */; };
+		F70B320A13BB45F700D36FC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B320913BB45F700D36FC4 /* main.m */; };
+		F70B320D13BB45F700D36FC4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F70B320B13BB45F700D36FC4 /* Credits.rtf */; };
+		F70B321013BB45F700D36FC4 /* TextViewTrialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B320F13BB45F700D36FC4 /* TextViewTrialAppDelegate.m */; };
+		F70B321313BB45F700D36FC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70B321113BB45F700D36FC4 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F70B31F813BB45F700D36FC4 /* TextViewTrial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextViewTrial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70B31FC13BB45F700D36FC4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F70B31FF13BB45F700D36FC4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F70B320013BB45F700D36FC4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F70B320113BB45F700D36FC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F70B320413BB45F700D36FC4 /* TextViewTrial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextViewTrial-Info.plist"; sourceTree = "<group>"; };
+		F70B320613BB45F700D36FC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F70B320813BB45F700D36FC4 /* TextViewTrial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextViewTrial-Prefix.pch"; sourceTree = "<group>"; };
+		F70B320913BB45F700D36FC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F70B320C13BB45F700D36FC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F70B320E13BB45F700D36FC4 /* TextViewTrialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewTrialAppDelegate.h; sourceTree = "<group>"; };
+		F70B320F13BB45F700D36FC4 /* TextViewTrialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewTrialAppDelegate.m; sourceTree = "<group>"; };
+		F70B321213BB45F700D36FC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70B31F513BB45F700D36FC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70B31FD13BB45F700D36FC4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F70B31ED13BB45F700D36FC4 = {
+			isa = PBXGroup;
+			children = (
+				F70B320213BB45F700D36FC4 /* TextViewTrial */,
+				F70B31FB13BB45F700D36FC4 /* Frameworks */,
+				F70B31F913BB45F700D36FC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F70B31F913BB45F700D36FC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70B31F813BB45F700D36FC4 /* TextViewTrial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70B31FB13BB45F700D36FC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F70B31FC13BB45F700D36FC4 /* Cocoa.framework */,
+				F70B31FE13BB45F700D36FC4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F70B31FE13BB45F700D36FC4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F70B31FF13BB45F700D36FC4 /* AppKit.framework */,
+				F70B320013BB45F700D36FC4 /* CoreData.framework */,
+				F70B320113BB45F700D36FC4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F70B320213BB45F700D36FC4 /* TextViewTrial */ = {
+			isa = PBXGroup;
+			children = (
+				F70B320E13BB45F700D36FC4 /* TextViewTrialAppDelegate.h */,
+				F70B320F13BB45F700D36FC4 /* TextViewTrialAppDelegate.m */,
+				F70B321113BB45F700D36FC4 /* MainMenu.xib */,
+				F70B320313BB45F700D36FC4 /* Supporting Files */,
+			);
+			path = TextViewTrial;
+			sourceTree = "<group>";
+		};
+		F70B320313BB45F700D36FC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F70B320413BB45F700D36FC4 /* TextViewTrial-Info.plist */,
+				F70B320513BB45F700D36FC4 /* InfoPlist.strings */,
+				F70B320813BB45F700D36FC4 /* TextViewTrial-Prefix.pch */,
+				F70B320913BB45F700D36FC4 /* main.m */,
+				F70B320B13BB45F700D36FC4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70B31F713BB45F700D36FC4 /* TextViewTrial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70B321613BB45F700D36FC4 /* Build configuration list for PBXNativeTarget "TextViewTrial" */;
+			buildPhases = (
+				F70B31F413BB45F700D36FC4 /* Sources */,
+				F70B31F513BB45F700D36FC4 /* Frameworks */,
+				F70B31F613BB45F700D36FC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextViewTrial;
+			productName = TextViewTrial;
+			productReference = F70B31F813BB45F700D36FC4 /* TextViewTrial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70B31EF13BB45F700D36FC4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F70B31F213BB45F700D36FC4 /* Build configuration list for PBXProject "TextViewTrial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F70B31ED13BB45F700D36FC4;
+			productRefGroup = F70B31F913BB45F700D36FC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70B31F713BB45F700D36FC4 /* TextViewTrial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70B31F613BB45F700D36FC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70B320713BB45F700D36FC4 /* InfoPlist.strings in Resources */,
+				F70B320D13BB45F700D36FC4 /* Credits.rtf in Resources */,
+				F70B321313BB45F700D36FC4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70B31F413BB45F700D36FC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70B320A13BB45F700D36FC4 /* main.m in Sources */,
+				F70B321013BB45F700D36FC4 /* TextViewTrialAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F70B320513BB45F700D36FC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70B320613BB45F700D36FC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F70B320B13BB45F700D36FC4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70B320C13BB45F700D36FC4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F70B321113BB45F700D36FC4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70B321213BB45F700D36FC4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F70B321413BB45F700D36FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F70B321513BB45F700D36FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F70B321713BB45F700D36FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewTrial/TextViewTrial-Prefix.pch";
+				INFOPLIST_FILE = "TextViewTrial/TextViewTrial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F70B321813BB45F700D36FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextViewTrial/TextViewTrial-Prefix.pch";
+				INFOPLIST_FILE = "TextViewTrial/TextViewTrial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70B31F213BB45F700D36FC4 /* Build configuration list for PBXProject "TextViewTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70B321413BB45F700D36FC4 /* Debug */,
+				F70B321513BB45F700D36FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70B321613BB45F700D36FC4 /* Build configuration list for PBXNativeTarget "TextViewTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70B321713BB45F700D36FC4 /* Debug */,
+				F70B321813BB45F700D36FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F70B31EF13BB45F700D36FC4 /* Project object */;
+}
