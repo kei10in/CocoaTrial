@@ -13,6 +13,7 @@
 		F70B320D13BB45F700D36FC4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F70B320B13BB45F700D36FC4 /* Credits.rtf */; };
 		F70B321013BB45F700D36FC4 /* TextViewTrialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B320F13BB45F700D36FC4 /* TextViewTrialAppDelegate.m */; };
 		F70B321313BB45F700D36FC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70B321113BB45F700D36FC4 /* MainMenu.xib */; };
+		F70B323113BB498E00D36FC4 /* TrailTextViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B323013BB498E00D36FC4 /* TrailTextViewDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		F70B320E13BB45F700D36FC4 /* TextViewTrialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewTrialAppDelegate.h; sourceTree = "<group>"; };
 		F70B320F13BB45F700D36FC4 /* TextViewTrialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewTrialAppDelegate.m; sourceTree = "<group>"; };
 		F70B321213BB45F700D36FC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F70B322F13BB498E00D36FC4 /* TrailTextViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrailTextViewDelegate.h; sourceTree = "<group>"; };
+		F70B323013BB498E00D36FC4 /* TrailTextViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrailTextViewDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				F70B320F13BB45F700D36FC4 /* TextViewTrialAppDelegate.m */,
 				F70B321113BB45F700D36FC4 /* MainMenu.xib */,
 				F70B320313BB45F700D36FC4 /* Supporting Files */,
+				F70B322F13BB498E00D36FC4 /* TrailTextViewDelegate.h */,
+				F70B323013BB498E00D36FC4 /* TrailTextViewDelegate.m */,
 			);
 			path = TextViewTrial;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			files = (
 				F70B320A13BB45F700D36FC4 /* main.m in Sources */,
 				F70B321013BB45F700D36FC4 /* TextViewTrialAppDelegate.m in Sources */,
+				F70B323113BB498E00D36FC4 /* TrailTextViewDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
